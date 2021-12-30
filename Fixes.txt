@@ -1,0 +1,10 @@
+Consulta busca cualquier informacion en la tabla
+Se ha arreglado el total que aparecía (Antes puse que el descuento era la cantidad)
+Traducido al ingles para cv
+Las estadisticas se crean
+Se refresca la tabla de articulos al borrar una factura para que se refleje el cambio de stock
+Las lineas se borran correctamente de la bd al borrarlas individualmente (Se borraban solamente de forma grafica, o si borrabas toda la factura.)
+El stock no puede bajar mas de 0
+Primary keys controladas
+Añadidos titulos a todas las ventanas.
+El descuento solo puede ser del 100% como maximo, y se aplica tras aplicar el iva. (Se aplica primero el iva al producto, y el descuento al producto+iva para evitar que tras un 100% de descuento valga lo que el iva)
